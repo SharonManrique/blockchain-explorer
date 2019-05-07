@@ -1,0 +1,16 @@
+.Homepage {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    font-size: 2em;
+    font-family: "Indie Flower", cursive;
+  }
+
+  &-description {
+    font-size: 1em;
+  }
+}

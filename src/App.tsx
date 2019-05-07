@@ -14,6 +14,7 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
+import "./App.scss";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   return (
@@ -31,7 +32,7 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <div>
+          <div className="Header">
             <ul>
               <li>
                 <Link to="/">Home</Link>
